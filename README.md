@@ -12,9 +12,20 @@ node src/game.js
 
 Une sauvegarde est écrite dans `save.json` à la racine.
 
+## Lancer le frontend web (React + Vite)
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+Ouvrez l’URL locale affichée (par défaut `http://localhost:5173`).
+
 ## Contenu
 - `docs/GDD-Invest-In-DRC.md`: Game Design Document détaillé (FR)
 - `src/game.js`: Prototype CLI sans dépendances (économie, événements, réputation, villes)
+- `web/`: Application frontend React + Vite (TypeScript, thème Congo)
 
 ## Pitch (FR)
 Invest In DRC est une simulation de business inspirée de la réalité congolaise. Commence avec 50 dollars et bâtis ton empire à travers l’agriculture, la tech, l’énergie ou le commerce. Gère la corruption, les taxes, la concurrence et les crises économiques. Découvre la route vers la richesse à la congolaise — stratégique, risquée, mais passionnante.
